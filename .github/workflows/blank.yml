@@ -18,8 +18,8 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '21'
-          distribution: 'temurin's
-          cache: 'maven' # Optimising speed by caching the .ja
+          distribution: 'temurin'
+          cache: 'maven' # Optimising speed by caching the .jar
 
       - name: Build with Maven
         run: mvn -B clean install -DskipTests
