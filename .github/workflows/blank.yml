@@ -22,11 +22,14 @@ jobs:
           cache: 'maven' # Optimising speed by caching the .jar
 
       - name: Build with Maven
+        working-directory: project/back
         run: mvn -B clean install -DskipTests
 
       - name: Run All Tests
+        working-directory: project/back
         run: mvn -B test
 
       - name: Technical Debt Check (Optional)
+        working-directory: project/back
         # Code quality need to be checked
         run: echo "Analyse SonarCloud or Checkstyle can be added here"
