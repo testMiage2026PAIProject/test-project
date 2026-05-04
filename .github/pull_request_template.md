@@ -12,12 +12,11 @@ TeamName: Name of the fix/feature
 - 
 - 
 
-**How to test?**
-[Clear, step-by-step instructions for the reviewer to verify the changes]
-1. 
-2. 
+**Visual Proof (UI changes only):**
+[Attach Before/After screenshots]
 
 **Checklist:**
+<!-- [ ] unchecked & [x] checked-->
 - [ ] I have reviewed my own code before opening this PR.
 - [ ] My code is self-explanatory; comments are strictly reserved for the "why", not the "how".
 - [ ] I have added tests that prove my fix is effective or that my feature works.
